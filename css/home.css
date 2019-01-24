@@ -1,0 +1,55 @@
+/* HOME STYLE */
+
+/* Header of the page */
+.jumbotron {
+	background: #333 url("../img/bg.jpg") -400px -200px; /* negative pixels to move the picture and just get part of it*/
+	color: #fff; /* white */
+	text-align: center;
+	border-bottom: 5px #f4f4f4 solid;
+	padding: 0 60px 40px 60px;
+}
+
+/* header of the jumbotron */
+#jumbotronTitle {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+/* text of the jumbotron */
+.jumbotronText {
+	font-size: 25px;
+	margin-bottom: 60px;
+}
+
+/* Buttons of the jumbotron */
+.jumbotronButtons {
+	background: transparent;
+	color: inherit;
+	border-color: #fff;
+	margin: 0 20px;
+}
+.jumbotronButtons:hover {
+	background: #fff;
+	color: black;
+}
+/* navbar container */
+.navbar {
+	margin: 0;
+	color: #fff;
+}
+
+.navbar a {
+	color: #fff;
+	margin-bottom: 3px;
+	border-bottom: none;
+	transition: border-bottom 0.7 linear;
+	-webkit-transition: border-bottom 0.7 linear;
+	-moz-transition: border-bottom 0.7 linear;
+}
+
+.navbar a:hover {
+	background: none  !important;
+	border-bottom: #fff 3px solid;
+	margin-bottom: 0;
+
+}
